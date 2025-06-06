@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root{
+
+    --color-primary: #ff0000;
+    --color-text: #7a7a7a;
+}
+
+body {
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  text-align: right;
+  color: var(--color-text);
+  line-height: 40px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.subtitle{
+  font-size: 20px;
+}
+
+.bg-gradiant{
+    background-image: linear-gradient(190deg, #FBFBFB 0%, #D2D2D2 100%);
+}
+
+
+
