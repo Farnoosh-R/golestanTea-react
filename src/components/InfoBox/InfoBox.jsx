@@ -1,7 +1,7 @@
 const InfoBox = ({ title, content }) => {
   return (
     <>
-      <div className="container max-w-[700px] mx-auto py-[50px]">
+      <div className="container mb-[20px]">
         <h2 className="text-(--color-primary)">{title}</h2>
         <p>{content}</p>
       </div>

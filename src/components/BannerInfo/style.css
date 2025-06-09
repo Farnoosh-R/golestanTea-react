@@ -1,0 +1,9 @@
+.banner-info {
+  position: relative;
+
+  .bnner-info-box {
+    position: absolute;
+    right: 25%;
+    bottom: 0;
+  }
+}

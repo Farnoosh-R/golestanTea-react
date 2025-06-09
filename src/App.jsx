@@ -11,6 +11,8 @@ function App() {
     <>
     <Navbar />
     <Header />
+    <br />
+    <br />
     <Body />
     </>
   )
