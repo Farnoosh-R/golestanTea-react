@@ -36,8 +36,13 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>صفحه اصلی</a></li>
-      <li>
+      <li className="en"><a>En</a></li>
+      <li><a>تماس با ما</a></li>
+      <li><a>استخدام</a></li>
+      <li><a>قرعه کشی</a></li>
+      <li><a>وبلاگ</a></li>
+      <li><a>محصولات</a></li>
+            <li>
         <details>
           <summary>شرکت گلستان</summary>
           <ul className="p-2">
@@ -49,12 +54,14 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-        <li><a>محصولات</a></li>
-        <li><a>وبلاگ</a></li>
-        <li><a>قرعه کشی</a></li>
-        <li><a>استخدام</a></li>
-        <li><a>تماس با ما</a></li>
-        <li className="en"><a>En</a></li>
+      <li><a>صفحه اصلی</a></li>
+
+        
+        
+        
+        
+        
+        
     </ul>
   </div>
   </div>

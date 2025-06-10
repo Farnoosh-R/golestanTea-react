@@ -5,7 +5,7 @@
 
 .navbar{
     background: var(--dark-gray);
-    justify-content: center;
+    justify-content: flex-start;
     transition: all 0.2s;
 
     .navbar-start{
@@ -29,6 +29,7 @@
                 ul{
                         width: 140%;
                         background: var(--dark-gray);
+                        direction: rtl;
 
                     li{
                         border-left: none;

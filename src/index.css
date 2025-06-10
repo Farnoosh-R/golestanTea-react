@@ -4,8 +4,10 @@
 :root{
 
     --color-primary: #ed1c24;
-    --color-gray: #7a7a7a;
+    --color-gray: #818588;
+    --color-gray-light: #C8C8C8;
     --color-beige: #e9d69f;
+    --color-green: #cde4b0;
 }
 
 
@@ -18,8 +20,13 @@ body {
   line-height: 40px;
 }
 
-.container{
+.container-min{
   max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-max{
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,10 +48,16 @@ h2{
   font-weight: bold;
 }
 h1.special{
-  ont-size: 29px;
+  font-size: 29px;
+  font-weight: 400;
+}
+h2.special{
+  font-size: 20px;
+  font-weight: 400;
 }
 h3.special{
   font-size: 16px;
+  font-weight: 400;
 }
 .subtitle{
   font-size: 20px;
