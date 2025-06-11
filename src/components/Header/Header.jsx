@@ -4,7 +4,7 @@ import Line from "../Line/Line";
 const Header = () => {
   return (
     <>
-    <div className="bg-gradiant py-[100px] ">
+    <div className="bg-gradiant py-[100px] mb-[20px]">
               <div className="flex flex-row gap-4 justify-between container-min mx-auto max-w-[1000px]">
         <div className="w-1/2 text-left flex-1">
           <img src="./images/header-tea.png" alt="" />
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-    <Line mt={"15px"}/>
+    <Line color={"gray-300"}/>
     </>
   );
 };

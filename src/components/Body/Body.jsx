@@ -2,8 +2,10 @@ import BanerFix from "../BanerFix/BanerFix";
 import BannerInfo from "../BannerInfo/BannerInfo";
 import Button from "../Button/Button";
 import Counter from "../Counter/Counter";
+import Footer from "../Footer/Footer";
 import ImageInfoBox from "../ImageInfoBox/ImageInfoBox";
 import InfoBox from "../InfoBox/InfoBox";
+import ProfessionalBanner from "../ProfessionalBanner/ProfessionalBanner";
 import VideoInfoBox from "../VideoInfoBox/VideoInfoBox";
 
 const Body = () => {
@@ -42,7 +44,15 @@ const Body = () => {
         <ImageInfoBox />
         <br />
         <VideoInfoBox />
-
+        <ProfessionalBanner />
+        <br />
+        <br />
+        <br />
+        <InfoBox title={"مسئوليت‌های اجتماعی گلستان"} content={"كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین، قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و امکاناتشان برای حل مشكلات جامعه و محیط زندگی خود استفاده كنند. گلستان در فعالیت‌های‌ اجتماعی خود،‌ گسترده وسیعی از فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است."} />
+            <div className="container-min pb-[50px]">
+            <Button text={"اطلاعات بيشتر"}/>
+        </div>
+        <Footer />
         </>
     )
 }

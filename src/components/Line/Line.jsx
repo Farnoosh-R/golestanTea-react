@@ -1,7 +1,7 @@
-const Line = ({mt}) => {
+const Line = ({mt, color}) => {
     return(
         <>
-        <div className={`border-b-1 border-gray-300 mt-[${mt}]`}></div>
+        <div className={`border-b-1 border-${color}`}></div>
         </>
     )
 }

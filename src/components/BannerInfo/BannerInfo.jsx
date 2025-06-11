@@ -11,7 +11,7 @@ const BannerInfo = ({image, title, text}) => {
             <h3 className="special text-white">{text}</h3>
             </div>
         </div>
-        <Line mt={"30px"}/>
+        <Line color={"gray-300"}/>
         </>
     )
 }

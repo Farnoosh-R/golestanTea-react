@@ -5,9 +5,11 @@
 
     --color-primary: #ed1c24;
     --color-gray: #818588;
-    --color-gray-light: #C8C8C8;
+    --color-gray-light: #b1b8bd;
     --color-beige: #e9d69f;
     --color-green: #cde4b0;
+    --dark-gray: #262626;
+    --dark-green: #105153;
 }
 
 
@@ -33,13 +35,10 @@ body {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  
   text-decoration: inherit;
 }
 
-a:hover {
-  color: #535bf2;
-}
 h1{
   font-size: 30px;
 }
